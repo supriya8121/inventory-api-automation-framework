@@ -1,0 +1,12 @@
+public class DriverFactory {
+
+    public static WebDriver getDriver() {
+
+        WebDriver driver =
+                new ChromeDriver();
+
+        driver.manage().window().maximize();
+
+        return driver;
+    }
+}
